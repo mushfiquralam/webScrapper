@@ -35,7 +35,7 @@ def get_all_links(url):
         return []
 
 # URL of the webpage you want to scrape
-url = 'https://www.facebook.com/'
+url = input("Enter the URL of the webpage you want to scrape: ")
 
 all_contents = get_all_contents(url)
 
